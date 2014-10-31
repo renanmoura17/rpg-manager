@@ -1,5 +1,8 @@
 package br.com.rm.model;
 
+/**
+ * Classe utilizada para representar os personagens do jogo (personagens de jogadores e personagens do mestre)
+ **/
 public class Personagem {
 	String nome;
 	Integer HPAtual;
