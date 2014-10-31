@@ -1,10 +1,13 @@
 package br.com.rm.model;
 
+/**
+ * Classe utilizada para representar os usuários do sistema
+ **/
 public class Usuario {
 	private Long id;
 	private String login;
 	private String senha;
-	private int tipo;
+	private int tipo; //Usuário pode ser do tipo mestre(0) ou do tipo jogador (1)
 	
 	public Long getId() {
 		return id;
