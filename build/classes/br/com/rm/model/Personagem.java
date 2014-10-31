@@ -7,6 +7,7 @@ public class Personagem {
 	Integer MPAtual;
 	Integer MPTotal;
 	Integer nivel;
+	Integer gold;
 	
 	public String getNome() {
 		return nome;
@@ -43,5 +44,11 @@ public class Personagem {
 	}
 	public void setNivel(Integer nivel) {
 		this.nivel = nivel;
+	}
+	public getGold () {
+		return gold;
+	}
+	public setGold (Integer gold) {
+		this.gold = gold;
 	}
 }
